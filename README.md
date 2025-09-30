@@ -1,3 +1,9 @@
+![GitHub release](https://img.shields.io/github/v/release/engdalevedove/whatsapp-api-base)
+![License](https://img.shields.io/github/license/engdalevedove/whatsapp-api-base)
+![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)
+![Python](https://img.shields.io/badge/python-%3E%3D3.8-blue)
+
+
 # WhatsApp API Base - Sistema de Envio Automatizado
 
 ## Sobre o Projeto
