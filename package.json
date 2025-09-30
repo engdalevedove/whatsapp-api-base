@@ -1,0 +1,53 @@
+{
+  "name": "whatsapp-api-base",
+  "version": "1.0.0",
+  "description": "API robusta para automação de envios via WhatsApp Web com suporte a texto, imagens, vídeos e documentos",
+  "main": "whatsapp-api-base.js",
+  "scripts": {
+    "start": "node whatsapp-api-base.js",
+    "dev": "nodemon whatsapp-api-base.js",
+    "pm2-start": "pm2 start whatsapp-api-base.js --name whatsapp-base",
+    "pm2-stop": "pm2 stop whatsapp-base",
+    "pm2-restart": "pm2 restart whatsapp-base",
+    "pm2-logs": "pm2 logs whatsapp-base",
+    "status": "curl http://localhost:3000/status",
+    "test": "python whatsapp_base.py"
+  },
+  "keywords": [
+    "whatsapp",
+    "api",
+    "automation",
+    "messaging",
+    "bot",
+    "bulk-messaging",
+    "whatsapp-web",
+    "nodejs",
+    "express"
+  ],
+  "author": {
+    "name": "Dale Vedove",
+    "url": "https://github.com/engdalevedove"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engdalevedove/whatsapp-api-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/engdalevedove/whatsapp-api-base/issues"
+  },
+  "homepage": "https://github.com/engdalevedove/whatsapp-api-base#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
